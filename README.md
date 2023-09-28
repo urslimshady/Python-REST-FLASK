@@ -26,7 +26,7 @@ SwaggerUI: Access the API documentation and test endpoints interactively at http
 - DELETE /api/notes/{id}: Delete a note by ID.
 
 ## Database
-This project uses SQLite as the database system. You can find the database file at db.sqlite. You can customize the database settings in the config.py file.
+This project uses SQLite as the database system. You can find the database file at people.db. You can customize the database settings in the config.py file.
 
 ## Configuration
 You can configure the API by modifying the settings in the config.py file. You may need to set database URLs, secret keys, and other environment-specific configurations.
