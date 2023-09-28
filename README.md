@@ -9,7 +9,7 @@ Configuration
 Contributing
 
 ## API Endpoints
-SwaggerUI: Access the API documentation and test endpoints interactively at http://localhost:5000/api/doc.
+SwaggerUI: Access the API documentation and test endpoints interactively at http://localhost:5000/api/ui.
 
 ### PERSON Endpoints
 - GET /api/people: Retrieve a list of all people.
