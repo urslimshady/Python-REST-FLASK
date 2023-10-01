@@ -13,17 +13,17 @@ SwaggerUI: Access the API documentation and test endpoints interactively at http
 
 ### PERSON Endpoints
 - GET /api/people: Retrieve a list of all people.
-- GET /api/people/{lname}: Retrieve a specific person by last name.
-- POST /api/people/{lname}: Create a new person.
-- PUT /api/peopple/{lname}: Update a person by last name.
-- DELETE /api/people/{lname}: Delete a person by last name.
+- GET /api/people/{person_id}: Retrieve a specific person by ID.
+- POST /api/people: Create a new person.
+- PUT /api/peopple/{person_id}: Update a person by ID.
+- DELETE /api/people/{person_id}: Delete a person by ID.
 
 ### NOTE Endpoints
 - GET /api/notes: Retrieve a list of all notes.
-- GET /api/notes/{id}: Retrieve a specific note by ID.
-- POST /api/notes/{people_id}: Create a new note with person id.
-- PUT /api/notes/{id}: Update a note by ID.
-- DELETE /api/notes/{id}: Delete a note by ID.
+- GET /api/notes/{note_id}: Retrieve a specific note by ID.
+- POST /api/notes/{person_id}: Create a new note with person id.
+- PUT /api/notes/{note_id}: Update a note by ID.
+- DELETE /api/notes/{note_id}: Delete a note by ID.
 
 ## Database
 This project uses SQLite as the database system. You can find the database file at people.db. You can customize the database settings in the config.py file.
